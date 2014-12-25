@@ -444,7 +444,7 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
-  <project path="packages/apps/PerformanceControl" name="LiquidSmooth/android_packages_apps_PerformanceControl" remote="github" revision="lollipop" />
+  <project path="packages/apps/PerformanceControl" name="NickDoherty81/android_packages_apps_PerformanceControl" remote="github" revision="android-5.0" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/Settings" name="NickDoherty81/android_packages_apps_Settings" remote="github" revision="cm-12.0" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
