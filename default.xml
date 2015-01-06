@@ -17,11 +17,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="NickDoherty81/android_build" remote="github" revision="cm-12.0" >
+  <project path="build" name="AndroPlusRom/android_build" remote="github" revision="cm-12.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="NickDoherty81/android" remote="github" revision="cm-12.0" />
+  <project path="android" name="AndroPlusRom/android" remote="github" revision="cm-12.0" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -329,7 +329,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="NickDoherty81/android_frameworks_base" remote="github" revision="cm-12.0" />
+  <project path="frameworks/base" name="AndroPlusRom/android_frameworks_base" remote="github" revision="cm-12.0" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -338,7 +338,7 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="NickDoherty81/android_frameworks_native" remote="github" revision="cm-12.0" />
+  <project path="frameworks/native" name="AndroPlusRom/android_frameworks_native" remote="github" revision="cm-12.0" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
@@ -409,7 +409,7 @@
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="packages/apps/AudioFX" name="NickDoherty81/android_packages_apps_AudioFX" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/AudioFX" name="AndroPlusRom/android_packages_apps_AudioFX" remote="github" revision="cm-12.0" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
@@ -417,7 +417,7 @@
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
-  <project path="packages/apps/CameraNext" name="nickdoherty81/packages_apps_CameraNext" remote="github" revision="kk4.4" />
+  <project path="packages/apps/CameraNext" name="AndroPlusRom/packages_apps_CameraNext" remote="github" revision="kk4.4" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
@@ -427,13 +427,12 @@
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" />
-  <project path="packages/apps/Eleven" name="NickDoherty81/android_packages_apps_Eleven" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Eleven" name="AndroPlusRom/android_packages_apps_Eleven" remote="github" revision="cm-12.0" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
-  <project path="packages/apps/GalleryNext" name="nickdoherty81/packages_apps_GalleryNext" remote="github" revision="master" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
+  <project path="packages/apps/InCallUI" name="AndroPlusRom/android_packages_apps_InCallUI" remote="github" revision="cm-12.0" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />
@@ -441,9 +440,9 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
-  <!-- <project path="packages/apps/PerformanceControl" name="NickDoherty81/android_packages_apps_PerformanceControl" remote="github" revision="android-5.0" /> -->
+  <!-- <project path="packages/apps/PerformanceControl" name="AndroPlusRom/android_packages_apps_PerformanceControl" remote="github" revision="android-5.0" /> -->
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="NickDoherty81/android_packages_apps_Settings" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Settings" name="AndroPlusRom/android_packages_apps_Settings" remote="github" revision="cm-12.0" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
@@ -557,5 +556,5 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="vendor/cm" name="NickDoherty81/android_vendor_cm" remote="github" revision="cm-12.0" />
+  <project path="vendor/cm" name="AndroPlusRom/android_vendor_cm" remote="github" revision="cm-12.0" />
 </manifest>
